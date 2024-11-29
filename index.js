@@ -18,7 +18,6 @@ const handleSubmit = (e) => {
     const data = Object.fromEntries(formData);
 
     if (!validateEmail(data.email)) {
-        console.log('Please provide a valid email');
         email.classList.add('input_error');
         errorMessage.style.visibility = 'visible';
         return;
@@ -29,8 +28,6 @@ const handleSubmit = (e) => {
     signUpContainer.style.display = 'none';
     successContainer.style.display = 'flex';
     submittedEmail.textContent = data.email;
-
-    console.log(data);
 };
 
 form.addEventListener('submit', handleSubmit);

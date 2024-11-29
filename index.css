@@ -75,7 +75,6 @@ button {
 
 .dismiss-btn {
     width: 100%;
-    justify-self: flex-end;
     margin-top: 1em;
 }
 
