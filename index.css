@@ -62,6 +62,7 @@ button {
     transition: background-color 0.3s ease;
     text-wrap: nowrap;
     text-align: center;
+    font-weight: 700;
 }
 
 .btn:hover {
@@ -156,6 +157,7 @@ label {
 @media (max-width: 768px) {
     main {
         background-color: var(--white);
+        align-items: start;
     }
 
     .sign-up-img-desktop {
